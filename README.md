@@ -6,14 +6,14 @@
 ## 配置此库
 1. 依赖：    
 ```shell
-git clone https://github.com/BehaviorTree/BehaviorTree.CPP.git\
-sudo apt update\
-sudo apt install build-essential cmake libzmq3-dev libboost-dev libsqlite3-dev\
+git clone https://github.com/BehaviorTree/BehaviorTree.CPP.git \
+sudo apt update \
+sudo apt install build-essential cmake libzmq3-dev libboost-dev libsqlite3-dev \
 ```
 2. 安装：  
 ```shell
-cd BehaviorTree.CPP\
-mkdir build\
-cd build\
+cd BehaviorTree.CPP \
+mkdir build \
+cd build \
 cmake .. && make -j
 ```
