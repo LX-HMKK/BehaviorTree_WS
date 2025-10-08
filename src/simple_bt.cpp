@@ -20,7 +20,7 @@ int main()
     factory.registerSimpleAction("OpenGripper",std::bind(&GripperInterface::open,&gripper));
     factory.registerSimpleAction("CloseGripper",std::bind(&GripperInterface::close,&gripper));
 
-    auto tree = factory.createTreeFromFile("/home/sentry/BT_ws/bt_tree.xml");   //tmd，必须要用绝对路径
+    auto tree = factory.createTreeFromFile("/home/sentry/BT_ws/assets/bt_tree.xml");   //tmd，必须要用绝对路径
 
     tree.tickOnce();
 
